@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navigator{
+    height: 80px;
+    width: 100%; 
+    border-bottom: 1px;
+    background-color: white;
+}
+.logo{
+    line-height: 80px;
+    padding: 0 50px;
+    width: 150px;
+}
+nav ul{
+    float: right;
+    padding-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: #0593DF;
+    text-decoration: none;    
+    padding: 7px 13px;
+    font-weight: bold;
+    font-size: 17px;
+    list-style: none;
+}
+.navbtn.active,.navbtn:hover{
+    background-color: #0593DF;
+    color: white;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+
+
+.banner{
+    color: black;
+    background: url(images/display.png);
+    height: 550px;
+    width: 100%;
+}
+div.content{
+    padding-left: 55px;
+    margin-top: 90px;
+    display: inline-block;
+}
+.slogan{
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+}
+.clgname{
+    font-weight: bold;
+    font-size: 90px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.descrp{
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.regbtn{
+    color: white;
+    font-size: 20px;
+    background-color: #0593DF;
+    border-radius: 3px;
+    padding: 12px 25px;
+    display: inline-flex;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: ease-in-out .2s;
+}
+.regbtn:hover{
+    cursor:pointer;
+    color: #0593DF;
+    background-color: white;    
+    padding: 12px 30px;
+}
+
+
+
+.mileDiv{
+    width: auto;
+    margin: 40px auto 40px auto;
+}
+.mileTitle{
+    font-size: 30px;
+    margin: 25px 0;
+    text-align: center;
+    letter-spacing: 2px;
+    font-style: normal;
+}
+.mileContanier{
+    border: 1px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.mileBlock{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;    
+    float:left;
+    margin: 0 15px;
+}
+.numValue{
+    color: #0593DF;
+    font-weight: bold;
+    text-align: center;
+}
+.numDet{
+    font-size: 60px;
+}
+.numDesc{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+}
+
+
+
+.map{
+    height: 500px;
+    background-image: url(images/world\ map.png);
+    color: white;
+    display: block;
+}
+.mpbd{
+    padding-left: 55px;
+    position: absolute;
+    display: inline-block;
+}
+.mplg{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 34px;
+    display: inline-block;
+    margin-top: 60px;
+}
+.mphd{    
+    font-weight: bold;
+    font-size: 34px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mpul{    
+    padding-left: 30px;
+}
+.mpl{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
+.pltb{
+    margin: 0 auto;
+}
+.pltit{
+    font-size: 30px;
+    margin: 25px 0;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+.pltd{
+    height: 250px;
+    width: 225px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: lighter;
+    font-style: italic;
+    transition: ease-in-out .1s;
+}
+.pltd:hover{
+    border: 1px solid black;
+}
+.plimg{
+    width: 150px;
+    margin: 10px 110px;
+    border: 1px;
+}
+.plnm{
+    color: blue;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+}
+
+
+.coursesec{
+    display: block;
+    margin-top: 20px;
+}
+.course{
+    display: inline-block;
+    width: 100%;
+}
+.bk1{
+    margin: 0;
+    padding: 0;
+    height: 350px;
+    width: 50%;
+}
+.bk2{
+    margin: 0;
+    padding: 75px;
+    height: 350px;
+    width: 50%;
+    background-color: #0593DF;
+}
+.crlg{
+    color: white;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    display: inline-block;
+}
+.crtit{
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    display: inline-block;
+}
+.crdes{
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 25px;
+}
+
+
+
+.cmp{    
+    display: block;
+    margin-top: 20px;
+}
+.cmpblk{
+    width: 100%;
+}
+.cmpbox{
+    background-size: 10px;
+    height: 350px;
+    width: 25%;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0);
+    transition: ease-in-out .1s;    
+    
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative;
+}
+.cmpbox:hover{
+    color:black;
+    stroke: white;
+    background: #0593DF 100%;
+}
+.containertd {
+    width: 25%;
+    /* margin: 20px; */
+    height: 300px;
+    /* border: 3px solid #eee; */
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.child span {
+    display: none;
+    font-size: 35px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.containertd:hover .child,.containertd:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.containertd:hover .child:before, .containertd:focus .child:before {
+    display: block;
+}
+.containertd:hover span, .containertd:focus span {
+    display: block;
+}
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 73, 94, 0.75);
+}
+.cmptit{
+    font-size: 30px;
+    margin: 25px 0;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+.cmpdes{  
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+
+
+.bottom{
+    height: 350px;
+    background-color: #0e6a9c;
+    padding: 10px;
+}
+.whtimg{
+    width: 250px;
+}
+.clgnm{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.clgdet{    
+    margin-left: 10px;
+    line-height: 25px;
+}
+.clgadd{    
+    font-size: 16px;
+    color: white;
+}
+.btmlt{
+    display: flex;
+}
