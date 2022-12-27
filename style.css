@@ -388,8 +388,14 @@ div.content{
     color: white;
     text-align: center;
     margin-top: 0;
-    display: inline-block;
+    display: flex;
     align-items: center;
+    justify-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.clgsm:hover, .clgadd:hover{
+    opacity: .8;
 }
 .smlg{
     width:25px;
