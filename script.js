@@ -19,4 +19,5 @@ function scrol(){
             }
         });
 }
-window.addEventListener('scroll',scrol);
+//window.addEventListener('focus',scrol);
+document.querySelector('.mileDiv').onfocus=scrol;
